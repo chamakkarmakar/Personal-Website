@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flexible-container{
+    display: flex;   
+    /* padding-bottom: 140px; */
+    padding: 0 50px 120px 50px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 12%;
+}
+
+.heading-color{
+    color: #ac3b61;
+    font-size: 40px;
+    font-family: 'Luxurious Roman';
+}
+
+.half-width img{
+    width: 70%;
+    /* height: 85%; */
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#9a1750, #ee4c7c);
+    border-radius: 7px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+/* Top */
+.half-width h3{
+    border-left: 5px solid tomato;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+/* Projects */
+#projects h1{
+    text-align: center;
+}
+.mission{
+    width: 80%;
+    background-color: bisque; 
+    margin: 0 5%;
+    padding: 25px 15px;
+    border-radius: 10px;
+}
+.vision{
+    width: 80%;
+    background-color: antiquewhite; 
+    margin: 0 5%;
+    padding: 25px 15px;
+    border-radius: 10px;
+}
+.goals{
+    width: 80%;
+    background-color: beige; 
+    margin: 0 5%;
+    padding: 25px 15px;
+    border-radius: 10px;
+}
+.illustrator{
+    width: 50%;
+    height: 40%;
+}
+
+/* Contact */
+#contact-area h4{
+    margin-left: 12%;
+}
+.contact{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5% 5%;
+}
+.contact input{
+    width: 45%;
+    height: 50px;
+    margin: 15px 20px 15px 20px;
+    border-radius: 5px;
+    
+}
+.contact textarea{
+    width: 95%;
+    height: 50px;
+    margin: 15px 20px 15px 20px;
+    border-radius: 5px;
+    resize: none;
+}
+.form-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#9a1750, #ee4c7c);
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 20% 45%;
+    padding: 10px 40px;
+}
+/* Footer */
+footer{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px 0;
+}
+
