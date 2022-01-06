@@ -18,7 +18,7 @@ body{
 .heading-color{
     color: #ac3b61;
     font-size: 40px;
-    font-family: 'Luxurious Roman';
+    font-family: 'Playfair Display', serif;
 }
 
 .half-width img{
@@ -28,12 +28,13 @@ body{
 
 .button{
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
     background-image: linear-gradient(#9a1750, #ee4c7c);
     border-radius: 7px;
     font-weight: bold;
     border-radius: 5px;
     padding: 10px 40px;
+    
 }
 
 /* Top */
@@ -44,24 +45,24 @@ body{
 }
 
 /* Projects */
-#projects h1{
+#projects h4{
     text-align: center;
 }
-.mission{
+.web-design{
     width: 80%;
     background-color: bisque; 
     margin: 0 5%;
     padding: 25px 15px;
     border-radius: 10px;
 }
-.vision{
+.ux-design{
     width: 80%;
     background-color: antiquewhite; 
     margin: 0 5%;
     padding: 25px 15px;
     border-radius: 10px;
 }
-.goals{
+.digital-marketing{
     width: 80%;
     background-color: beige; 
     margin: 0 5%;
@@ -71,6 +72,10 @@ body{
 .illustrator{
     width: 50%;
     height: 40%;
+}
+/* Skills */
+#skills ul{
+    list-style: square;
 }
 
 /* Contact */
@@ -86,16 +91,16 @@ body{
     padding: 5% 5%;
 }
 .contact input{
-    width: 45%;
+    width: 44.5%;
     height: 50px;
-    margin: 15px 20px 15px 20px;
+    margin: 15px 16px 15px 20px;
     border-radius: 5px;
-    
+    border-width: .5px;
 }
 .contact textarea{
-    width: 95%;
+    width: 94.5%;
     height: 50px;
-    margin: 15px 20px 15px 20px;
+    margin: 15px 15px 15px 20px;
     border-radius: 5px;
     resize: none;
 }
@@ -110,9 +115,9 @@ body{
 }
 /* Footer */
 footer{
-    background-color: black;
-    color: whitesmoke;
+    background-color: #2C3531;
+    color: #D1E8E2;
     text-align: center;
-    padding: 5px 0;
+
 }
 
